@@ -5,5 +5,5 @@
         <?php wp_list_comments('format=html5');?>
     </ul>
     <?php endif; ?>
-    <?php comment_form('format=html5&title_reply=コメント&label_submit=送信'); ?>
+    <?php comment_form('format=html5&title_reply=コメント投稿&label_submit=送信'); ?>
 </div>

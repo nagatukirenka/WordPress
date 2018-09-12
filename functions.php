@@ -17,3 +17,4 @@ function my_length($length){
     return 40;
 }
 add_filter('excerpt_mblength','my_length');
+/*add_editor_style('editor-style.css');*/

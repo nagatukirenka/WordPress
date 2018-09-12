@@ -57,6 +57,7 @@ article img {border:none;max-width:100%;height:auto}
 .blogmenu .widgettitle {margin-top:10px;margin-bottom:20px;color:#666666;font-size:14px}
 .blogmenu li a {display:block;padding:10px 5px;color:#666666;font-size:14px;text-decoration:none}
 .blogmenu li a:hover {background-color:#ffffff}
+#comments {width:100%}
 #comments footer {background:none;margin:0;color:#000000;font-size:12px}
 #comments footer a {color: #000000}
 #comments footer div {display:inline}
@@ -70,10 +71,15 @@ article img {border:none;max-width:100%;height:auto}
 .topmenu {padding-top:40px;padding-bottom:40px}
 .link {text-align:center;margin-bottom:15px}
 .link a {font-size:22px;color:#666666;text-decoration:none}
-.link i {display:block;margin-left:auto;margin-right:auto;margin-bottom:5px;width:100px;line-height:100px;background-color:#b2eeff;color:#ffffff;font-size:44px}
+.link i {display:block;margin-left:auto;margin-right:auto;margin-bottom:5px;width:250px;line-height:100px;background-color:#b2eeff;color:#ffffff;font-size:44px}
 .link:nth-child(2) i {background-color:#b7ef6b}
 .link:nth-child(3) i {background-color:#ecc952}
 .link:nth-child(4) i {background-color:#e8a380}
+.sns-share {width:100%}
+.sns {float:left}
+.sns i {display:block;margin-left:auto;margin-right:auto;background-color:#ffffff;color:#dd4b39}
+.sns:nth-child(2) i {color: #315096}
+.sns:nth-child(3) i {color: #55acee}
 .topmenu {overflow:hidden}
 .link {float:left;width:25%}
 @media (min-width:800px){
@@ -85,3 +91,6 @@ article img {border:none;max-width:100%;height:auto}
 .excerpt .more a {padding: 5px 20px;border:solid 1px #cccccc;border-radius:5px;color:#000000;text-decoration:none;}
 .excerpt .more a:hover {background-color:#e6cc1c}
 .excerpt .more i {margin-left:10px;color:#cccccc}
+table {width:650px;padding-left:30px;padding-top:30px}
+table th {text-align:left;padding-top:10px;padding-bottom:10px;background:#efefef;color:#777777}
+table td {padding-top:10px;padding-bottom:10px;padding-left:20px;background:#efefef;color:#666666}

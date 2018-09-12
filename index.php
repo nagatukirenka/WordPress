@@ -48,6 +48,7 @@
                             <?php next_post_link('%link','%title <i class="fa fa-chevron-circle-right"></i>'); ?>
                         </span>
                     </div>
+                    <?php get_template_part('share'); ?>
                 <?php else: ?>                            
                     <div class="excerpt">
                         <?php the_excerpt(); ?>
@@ -69,7 +70,7 @@
                 </span>
             </div>
             <?php endif; ?>
-        </div><!--contents-->
+        </div>
         <div class="blogmenu">
             <ul>
                 <?php dynamic_sidebar(); ?>
@@ -83,5 +84,5 @@
                 </li>
             </ul>
         </div>
-    </div><!-- container -->
+    </div>
 <?php get_footer();?>
