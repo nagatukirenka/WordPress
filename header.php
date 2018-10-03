@@ -12,6 +12,20 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
+        <?php if(is_single()): ?> 
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:site" content="@Nagatuki_46" />
+            <meta name="twitter:title" content="<?php the_title(); ?>" />
+            <meta name="twitter:description" content="<?php echo get_post_meta($post->ID, _aioseop_description, true); ?>" />
+            <meta name="twitter:image" content="<?php
+            if(has_post_thumbnail( $post->ID )):
+                $thumbnail_id = get_post_thumbnail_id(); 
+                $thumbnail_img = wp_get_attachment_image_src( $thumbnail_id , 'thumbnail' );
+                echo $thumbnail_img[0];
+            else:
+                echo "https://nagatuki.org/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png";
+            endif; ?>" />
+        <?php endif; ?>
         <div class="siteinfo">
             <div class="container">
                 <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
